@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Foto</title>
+    <link rel="stylesheet" href="forto3.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My Foto</h1>
+        <p>Beberapa Foto Saya   </p>
+
+        <div class="hobby-gallery">
+            <div class="hobby-item">
+                <img src="name.jpg" alt="Hobi 1" onclick="openModal(this)">
+                <p>Foto ku</p>
+            </div>
+            <div class="hobby-item">
+                <img src="halu.jpg" alt="Hobi 2" onclick="openModal(this)">
+                <p>Foto Halu</p>
+                <a href="forto.html" class="btn">Kembali</a>
+            </div>
+        </div>
+    </div>
+    <div id="modal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImg">
+    </div>
+
+
+    <script src="forto3.js"></script>
+</body>
+</html>
